@@ -34,7 +34,7 @@ This research explores the aesthetics of North Indian Khayal music by studying t
 
 ## 2. Paper
 
-* **Paper (PDF):** [`Final_paper_ISMIR_2025.pdf`](./paper/Final_paper_ISMIR_2025.pdf)
+* **Paper:** [Full Paper (IS​MIR 2025) on arXiv](https://arxiv.org/abs/2508.04430)
 <!-- * **ArXiv: **  -->
 
 
