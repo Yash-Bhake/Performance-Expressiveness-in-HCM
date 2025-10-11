@@ -16,11 +16,6 @@ This repository contains the code, data (or links to data), and supplementary ma
     * [Environment Setup](#environment-setup)
     * [External Tools](#external-tools)
 6.  [Usage and Reproducibility](#6-usage-and-reproducibility)
-    * [Data Preparation](#data-preparation)
-    * [Audio Processing](#audio-processing)
-    * [Annotation Procedures](#annotation-procedures)
-    * [Expressiveness Measurement](#expressiveness-measurement)
-    * [Visualization](#visualization)
     * [Generative Experiment](#generative-experiment)
 7.  [Supplementary Materials](#7-supplementary-materials)
 8.  [Acknowledgments](#8-acknowledgments)
@@ -32,9 +27,9 @@ This repository contains the code, data (or links to data), and supplementary ma
 
 This research explores the aesthetics of North Indian Khayal music by studying the flexibility artists employ in performing popular compositions. We analyze expressive timing and pitch variations of lyrical content within and across performances. Our work proposes computational representations capable of discriminating between different performances of the same song based on their expressive qualities and thereby creating grounds for generative models capturing expressiveness. The repository provides the necessary audio processing, annotation procedures, and analysis scripts to reproduce our observations and insights derived from a dataset of two songs in two ragas, each rendered by multiple prominent artists.
 
-## 2. Paper
+## 2. Paper and Presentation
 
-* **Paper:** [Full Paper (IS​MIR 2025) on arXiv](https://arxiv.org/abs/2508.04430)
+* **Read full paper (ISMIR 2025) on ArXiv:** [here](https://arxiv.org/abs/2508.04430)
 <!-- * **ArXiv: **  -->
 
 
@@ -63,20 +58,7 @@ Due to copyright and file size constraints, the raw audio files are not directly
 │   ├── syllable_annotations/           # syllable level annotations (syllables as per canonical notation)
 │   ├── salient_beat_annotations/       # Beat annotations (salient beat onsets)
 │   └── canonical_notations/            # Machine-readable Bhatkhande notation (CSV files)
-├── src/
-│   ├── processing/                     # Scripts for vocal processing
-│   ├── annotation_tools/               # Scripts/tools for manual correction, forced alignment (Kaldi integration)
-│   ├── analysis/                       # Scripts for timing and pitch expressiveness measurements (PAA, Levenshtein)
-│   ├── visualization/                  # Scripts for generating plots (Figures 2, 3, 4, 7, 8, 9, 10, 11)
-│   └── generation/                     # Scripts for synthesizing audio from deviations (preliminary work)
-├── notebooks/                          # Jupyter notebooks for exploration, step-by-step analysis, and results validation
-│   ├── 01_Data_Preparation.ipynb
-│   ├── 02_Timing_Analysis.ipynb
-│   ├── 03_Pitch_Analysis.ipynb
-│   └── 04_Generative_Experiment.ipynb
-├── paper/
-│   └── Final_paper_ISMIR_2025.pdf
-├── supplementary/                      # Supplementary audio examples, additional plots/data
+├── src/                                # All source code files - Python scripts and Jupyter notebooks
 ├── .gitignore                          # Specifies intentionally untracked files to ignore
 ├── requirements.txt                    # List of Python dependencies
 ├── LICENSE                             # License file
@@ -125,7 +107,9 @@ Several components of our pipeline rely on external tools. Please ensure these a
 * **Gaudiolab (Source Separation):** [https://www.gaudiolab.com/gaudio-studio](https://www.gaudiolab.com/gaudio-studio) Webtool was used for Vocal - accompaniments separation. API for this tool had not been released at the time of this research. If you do not have access, you may substitute it with an open-source alternative like Spleeter or Demucs, though results may vary.
     * Spleeter: [https://github.com/deezer/spleeter](https://github.com/deezer/spleeter)
     * Demucs: [https://github.com/facebookresearch/demucs](https://github.com/facebookresearch/demucs)
-    
+ 
+## 6. Usage and Reproducibility
+
 ### Generative Experiment
 
 A preliminary experiment was conducted to generate temporal deviations and synthesize sine-tone based audio.
