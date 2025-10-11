@@ -1,6 +1,6 @@
 # Melodic and Metrical Elements of Expressiveness in Hindustani Vocal Music
 
-This repository contains the code, data (or links to data), and supplementary materials for the paper "Melodic and Metrical Elements of Expressiveness in Hindustani Vocal Music," accepted at the 26th International Society for Music Information Retrieval Conference (ISMIR 2025) in Daejeon, South Korea.
+This repository contains the code, data (or links to data), and supplementary materials for the paper "Melodic and Metrical Elements of Expressiveness in Hindustani Vocal Music," Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025) in Daejeon, South Korea.
 
 **Authors:** Yash Bhake, Ankit Anand, Preeti Rao
 **Affiliation:** Digital Audio Processing Lab, Department of Electrical Engineering, Indian Institute of Technology Bombay, India
